@@ -5,8 +5,8 @@ else
 fi
 
   PROMPT='
-%{$fg_bold[red]%}┌───=${user_host_jobs}[ %F{white}%~%F{red} ]$(git_prompt_info)
-└──(%{$reset_color%} '
+%B%F{red}┌───=${user_host_jobs}[ %F{white}%~%F{red} ]$(git_prompt_info)
+└──(%b%f '
 
 ZSH_THEME_GIT_PROMPT_PREFIX="-( %F{blue}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%F{red} )"
